@@ -52,24 +52,39 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
-              child: Text('Drawer Header'),
+              child: Text('Module 5 Assignment'),
             ),
             ListTile(
-              title: const Text('Page 1'),
+              title: const Text(
+                'Page 1',
+                style: TextStyle(
+                  fontSize: 20,
+                ),
+              ),
               onTap: () {
                 _changePage(0);
                 Navigator.pop(context);
               },
             ),
             ListTile(
-              title: const Text('Page 2'),
+              title: const Text(
+                'Page 2',
+                style: TextStyle(
+                  fontSize: 20,
+                ),
+              ),
               onTap: () {
                 _changePage(1);
                 Navigator.pop(context);
               },
             ),
             ListTile(
-              title: const Text('Page 3'),
+              title: const Text(
+                'Page 3',
+                style: TextStyle(
+                  fontSize: 20,
+                ),
+              ),
               onTap: () {
                 _changePage(2);
                 Navigator.pop(context);
